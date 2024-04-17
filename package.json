@@ -1,9 +1,13 @@
 {
-  "name": "af00-currency-converter",
+  "name": "af001-currency-converter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
